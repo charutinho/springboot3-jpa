@@ -102,7 +102,7 @@ public class Product implements Serializable {
 			set.add(x.getOrder());
 		}
 		return set;
-	};
+	}
 	
 	@Override
 	public int hashCode() {
